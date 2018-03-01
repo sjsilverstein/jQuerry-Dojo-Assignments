@@ -1,0 +1,29 @@
+<!-- Stephen Silverstein
+	https://github.com/sjsilverstein -->
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Contact Card</title>
+		<meta name="description" content="You are going to design a contact card page. The user should be able to input contacts to the page. Using the techniques demonstrated in the videos, you must use jQuery to append new data to the page and make the content interactive. Remember, the content you are making is dynamic, so be sure to attach your handlers appropriately.">
+		<link rel="stylesheet" type="text/css" href="style.css"> <!-- my style.css -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="myJavaScript.js"></script> <!-- myJavaScript -->
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Contact Cards</h1>
+			<form>
+				<h1>Submit Contact Card</h1>
+				<label>First Name:</label><input type="text" id="firstname" placeholder="First Name">
+				<label>Last Name:</label><input type="text" id="lastname" placeholder="Last Name">
+				<label>Description:</label><input type="text" id="description" rows="10" placeholder="Enter Description">
+				<input type="submit" name="adduser">
+			</form>
+			<div class="contactlist">
+				<h1>Contact List</h1>
+			</div>
+			
+		</div>
+	</body>
+	</html>

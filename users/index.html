@@ -1,0 +1,41 @@
+<!-- Stephen Silverstein
+	https://github.com/sjsilverstein -->
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Users</title>
+		<meta name="description" content="Create a blank table which has First Name, Last Name, Email and Contact Number as table headings. Have a form at the bottom which will be used to append items to the table. Make sure that each form field appends to its proper row/column in the table.">
+		<link rel="stylesheet" type="text/css" href="style.css"> <!-- my style.css -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="myJavaScript.js"></script> <!-- myJavaScript -->
+	</head>
+	<body>
+		<div class="wrapper">
+			
+				<table>
+					
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Email Address</th>
+						<th>Contact No.</th>
+					</tr>
+
+				</table>
+			<div class="formDiv">
+				<h1>Add User</h1>
+				<form id="form1">
+					<ul>
+						<li>First Name: <input type="text" id="firstname" placeholder="First Name"></li>
+						<li>Last Name: <input type="text" id="lastname" placeholder="Last Name"></li>
+						<li>Email Address: <input type="email" id="email" placeholder="Email Address"></li>
+						<li>Contact No. <input type="text" id="contactnumber" placeholder="Contact Phone Number"></li>
+						<li><input type="submit" name="submit"></li>
+					</ul>					
+				</form>
+			</div>
+		</div>
+
+	</body>
+	</html>
